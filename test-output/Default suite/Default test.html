@@ -1,0 +1,187 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 28 15:01:58 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27360 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T21_checkNonStopIsNotSelected()'><b>T21_checkNonStopIsNotSelected</b><br>Test class: flipkart.tests.SearchFlightsTest<br/>
+<a href="#Output-477319344" onClick='toggleBox("Output-477319344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477319344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477319344">
+isNonStopSelected >> true<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T16_selectToCity()'><b>T16_selectToCity</b><br>Test class: flipkart.tests.SearchFlightsTest<br>Parameters: Chennai</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T11_skipLogin()'><b>T11_skipLogin</b><br>Test class: flipkart.tests.SearchFlightsTest<br/>
+<a href="#Output-1192603187" onClick='toggleBox("Output-1192603187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1192603187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1192603187">
+isSkipLoginWinodwDisplayed >> true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T26_orderReview()'><b>T26_orderReview</b><br>Test class: flipkart.tests.SearchFlightsTest<br/>
+<a href="#Output-383392444" onClick='toggleBox("Output-383392444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-383392444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-383392444">
+isOrderReviewSuccess >> true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T19_selectTravellersDetails()'><b>T19_selectTravellersDetails</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>1</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T18_selectToDate()'><b>T18_selectToDate</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T12_gotoTravel()'><b>T12_gotoTravel</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T20_clickOnSerach()'><b>T20_clickOnSerach</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T23_printAllPrices()'><b>T23_printAllPrices</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>2</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T24_selectTheLastFlight()'><b>T24_selectTheLastFlight</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T14_checkRoundTripButton()'><b>T14_checkRoundTripButton</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T17_selectFromDate()'><b>T17_selectFromDate</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T13_checkOneWayButtonIsSelected()'><b>T13_checkOneWayButtonIsSelected</b><br>Test class: flipkart.tests.SearchFlightsTest<br/>
+<a href="#Output-1390430007" onClick='toggleBox("Output-1390430007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1390430007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1390430007">
+isOneWaySelected >> true<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T15_selectFromCity()'><b>T15_selectFromCity</b><br>Test class: flipkart.tests.SearchFlightsTest<br>Parameters: Kolkata</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T22_clickNonStop()'><b>T22_clickNonStop</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>0</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+<tr>
+<td title='flipkart.tests.SearchFlightsTest.T25_clickBookButton()'><b>T25_clickBookButton</b><br>Test class: flipkart.tests.SearchFlightsTest</td>
+<td></td>
+<td>1</td>
+<td>flipkart.tests.SearchFlightsTest@55634720</td></tr>
+</table><p>
+</body>
+</html>

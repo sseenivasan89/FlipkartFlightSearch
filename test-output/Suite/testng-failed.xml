@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="toCity" value="Chennai"/>
+    <parameter name="fromCity" value="Kolkata"/>
+    <classes>
+      <class name="flipkart.tests.SearchFlightsTest">
+        <methods>
+          <include name="T11_skipLogin"/>
+          <include name="T12_gotoTravel"/>
+          <include name="applicationClose"/>
+          <include name="applicationLaunch"/>
+        </methods>
+      </class> <!-- flipkart.tests.SearchFlightsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

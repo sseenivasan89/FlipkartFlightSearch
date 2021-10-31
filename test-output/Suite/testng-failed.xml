@@ -7,10 +7,15 @@
     <classes>
       <class name="flipkart.tests.SearchFlightsTest">
         <methods>
-          <include name="T11_skipLogin"/>
-          <include name="T12_gotoTravel"/>
+          <include name="T22_clickNonStop"/>
+          <include name="T23_printAllPrices"/>
           <include name="applicationClose"/>
+          <include name="T21_checkNonStopIsNotSelected"/>
+          <include name="T16_selectToCity" invocation-numbers="0"/>
+          <include name="T25_clickBookButton"/>
           <include name="applicationLaunch"/>
+          <include name="T26_orderReview"/>
+          <include name="T24_selectTheLastFlight"/>
         </methods>
       </class> <!-- flipkart.tests.SearchFlightsTest -->
     </classes>

@@ -25,20 +25,23 @@ public class FlipkartTravelPage extends BaseClass{
 	@FindBy(xpath  = "//*[@name='0-arrivalcity']")
 	WebElement toInputBox;
 	
-	@FindBy(xpath  = "(//*[@id='container']//div[1]//form//div[2]//*[text()='Chennai'])[2]")
+	@FindBy(xpath  = "(//*[@id='container']//div[1]//form//div[2]//*[text()='Chennai'])")
 	WebElement selectChennai;
 	
 	@FindBy(xpath  = "//*[@name='0-datefrom']")
 	WebElement departDateBox;
 	
-	@FindBy(xpath  = "//*[@id='container']//div[1]//form/div/div[3]//table[2]/tbody//*[text()='1']")
-	WebElement fromDate;
+	@FindBy(xpath = "//*[@id='container']//div[1]//form/div/div[3]//table/thead/tr[1]/th[2]/div")
+	List <WebElement> calenderMonths;
+	
+	@FindBy(xpath  = "//*[@id='container']//div[1]//form/div/div[3]//table/tbody//*[text()='1']")
+	List <WebElement> fromDate;
 	
 	@FindBy(xpath  = "//*[@name='0-dateto']")
 	WebElement returnDateBox;
 	
-	@FindBy(xpath  = "//*[@id='container']//div[1]//form/div/div[3]//table[2]/tbody//*[text()='30']")
-	WebElement toDate;
+	@FindBy(xpath  = "//*[@id='container']//div[1]//form/div/div[3]//table/tbody//*[text()='30']")
+	List <WebElement> toDate;
 	
 	@FindBy(xpath  = "//*[@name='0-travellerclasscount']")
 	WebElement travellersBox;
@@ -96,12 +99,14 @@ public class FlipkartTravelPage extends BaseClass{
 	}
 	
 	public void selectFromCity(String fromCity) {
+		wait.until(ExpectedConditions.elementToBeClickable(fromInputBox)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(fromInputBox)).sendKeys(fromCity);
 		wait.until(ExpectedConditions.visibilityOf(selectKolkata));
 		wait.until(ExpectedConditions.elementToBeClickable(selectKolkata)).click();
 	}
 	
 	public void selectToCity(String toCity) {
+		wait.until(ExpectedConditions.elementToBeClickable(toInputBox)).click();
 		wait.until(ExpectedConditions.elementToBeClickable(toInputBox)).sendKeys(toCity);
 		wait.until(ExpectedConditions.visibilityOf(selectChennai));
 		wait.until(ExpectedConditions.elementToBeClickable(selectChennai)).click();
@@ -109,12 +114,20 @@ public class FlipkartTravelPage extends BaseClass{
 	
 	public void selectDepartDate() {
 		wait.until(ExpectedConditions.elementToBeClickable(departDateBox)).click();
-		wait.until(ExpectedConditions.elementToBeClickable(fromDate)).click();
+		for(int a=0; a<calenderMonths.size(); a++) {
+			if(calenderMonths.get(a).getText().contains("November")) {
+				fromDate.get(a).click();
+			}
+		}
 	}
 	
 	public void selectReturnDate() {
 		wait.until(ExpectedConditions.elementToBeClickable(returnDateBox)).click();
-		wait.until(ExpectedConditions.elementToBeClickable(toDate)).click();
+		for(int a=0; a<calenderMonths.size(); a++) {
+			if(calenderMonths.get(a).getText().contains("November")) {
+				toDate.get(a).click();
+			}
+		}
 	}
 	
 	public void selectAdult() {

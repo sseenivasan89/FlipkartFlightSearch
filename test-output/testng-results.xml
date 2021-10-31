@@ -14,38 +14,38 @@
       <![CDATA[isOrderReviewSuccess >> true]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-10-28T15:10:59 IST" name="Suite" finished-at="2021-10-28T15:11:38 IST" duration-ms="39035">
+  <suite started-at="2021-10-31T13:31:31 IST" name="Suite" finished-at="2021-10-31T13:32:29 IST" duration-ms="58325">
     <groups>
     </groups>
-    <test started-at="2021-10-28T15:10:59 IST" name="Test" finished-at="2021-10-28T15:11:38 IST" duration-ms="39035">
+    <test started-at="2021-10-31T13:31:31 IST" name="Test" finished-at="2021-10-31T13:32:29 IST" duration-ms="58325">
       <class name="flipkart.tests.SearchFlightsTest">
-        <test-method is-config="true" signature="applicationLaunch()[pri:0, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:10:59 IST" name="applicationLaunch" finished-at="2021-10-28T15:11:10 IST" duration-ms="11017" status="PASS">
+        <test-method is-config="true" signature="applicationLaunch()[pri:0, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:31 IST" name="applicationLaunch" finished-at="2021-10-31T13:31:45 IST" duration-ms="14226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationLaunch -->
-        <test-method signature="T11_skipLogin()[pri:1, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:10 IST" name="T11_skipLogin" finished-at="2021-10-28T15:11:11 IST" duration-ms="745" status="PASS">
+        <test-method signature="T11_skipLogin()[pri:1, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:45 IST" name="T11_skipLogin" finished-at="2021-10-31T13:31:47 IST" duration-ms="1114" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[isSkipLoginWinodwDisplayed >> true]]>
             </line>
           </reporter-output>
         </test-method> <!-- T11_skipLogin -->
-        <test-method signature="T12_gotoTravel()[pri:2, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:11 IST" name="T12_gotoTravel" finished-at="2021-10-28T15:11:11 IST" duration-ms="246" status="PASS">
+        <test-method signature="T12_gotoTravel()[pri:2, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:47 IST" name="T12_gotoTravel" finished-at="2021-10-31T13:31:47 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T12_gotoTravel -->
-        <test-method signature="T13_checkOneWayButtonIsSelected()[pri:3, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:11 IST" name="T13_checkOneWayButtonIsSelected" finished-at="2021-10-28T15:11:12 IST" duration-ms="692" status="PASS">
+        <test-method signature="T13_checkOneWayButtonIsSelected()[pri:3, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:47 IST" name="T13_checkOneWayButtonIsSelected" finished-at="2021-10-31T13:31:49 IST" duration-ms="1639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[isOneWaySelected >> true]]>
             </line>
           </reporter-output>
         </test-method> <!-- T13_checkOneWayButtonIsSelected -->
-        <test-method signature="T14_checkRoundTripButton()[pri:4, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:12 IST" name="T14_checkRoundTripButton" finished-at="2021-10-28T15:11:12 IST" duration-ms="794" status="PASS">
+        <test-method signature="T14_checkRoundTripButton()[pri:4, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:49 IST" name="T14_checkRoundTripButton" finished-at="2021-10-31T13:31:49 IST" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T14_checkRoundTripButton -->
-        <test-method signature="T15_selectFromCity(java.lang.String)[pri:5, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:12 IST" name="T15_selectFromCity" finished-at="2021-10-28T15:11:13 IST" duration-ms="839" status="PASS">
+        <test-method signature="T15_selectFromCity(java.lang.String)[pri:5, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:49 IST" name="T15_selectFromCity" finished-at="2021-10-31T13:31:50 IST" duration-ms="965" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T15_selectFromCity -->
-        <test-method signature="T16_selectToCity(java.lang.String)[pri:6, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:13 IST" name="T16_selectToCity" finished-at="2021-10-28T15:11:14 IST" duration-ms="629" status="PASS">
+        <test-method signature="T16_selectToCity(java.lang.String)[pri:6, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:50 IST" name="T16_selectToCity" finished-at="2021-10-31T13:31:51 IST" duration-ms="1038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,53 +67,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T16_selectToCity -->
-        <test-method signature="T17_selectFromDate()[pri:7, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:14 IST" name="T17_selectFromDate" finished-at="2021-10-28T15:11:14 IST" duration-ms="608" status="PASS">
+        <test-method signature="T17_selectFromDate()[pri:7, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:51 IST" name="T17_selectFromDate" finished-at="2021-10-31T13:31:52 IST" duration-ms="852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T17_selectFromDate -->
-        <test-method signature="T18_selectToDate()[pri:8, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:14 IST" name="T18_selectToDate" finished-at="2021-10-28T15:11:15 IST" duration-ms="510" status="PASS">
+        <test-method signature="T18_selectToDate()[pri:8, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:31:52 IST" name="T18_selectToDate" finished-at="2021-10-31T13:32:13 IST" duration-ms="20644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T18_selectToDate -->
-        <test-method signature="T19_selectTravellersDetails()[pri:9, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:15 IST" name="T19_selectTravellersDetails" finished-at="2021-10-28T15:11:16 IST" duration-ms="1154" status="PASS">
+        <test-method signature="T19_selectTravellersDetails()[pri:9, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:13 IST" name="T19_selectTravellersDetails" finished-at="2021-10-31T13:32:14 IST" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T19_selectTravellersDetails -->
-        <test-method signature="T20_clickOnSerach()[pri:10, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:16 IST" name="T20_clickOnSerach" finished-at="2021-10-28T15:11:16 IST" duration-ms="228" status="PASS">
+        <test-method signature="T20_clickOnSerach()[pri:10, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:14 IST" name="T20_clickOnSerach" finished-at="2021-10-31T13:32:15 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T20_clickOnSerach -->
-        <test-method signature="T21_checkNonStopIsNotSelected()[pri:11, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:16 IST" name="T21_checkNonStopIsNotSelected" finished-at="2021-10-28T15:11:25 IST" duration-ms="8482" status="PASS">
+        <test-method signature="T21_checkNonStopIsNotSelected()[pri:11, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:15 IST" name="T21_checkNonStopIsNotSelected" finished-at="2021-10-31T13:32:21 IST" duration-ms="6915" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[isNonStopSelected >> true]]>
             </line>
           </reporter-output>
         </test-method> <!-- T21_checkNonStopIsNotSelected -->
-        <test-method signature="T22_clickNonStop()[pri:12, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:25 IST" name="T22_clickNonStop" finished-at="2021-10-28T15:11:25 IST" duration-ms="394" status="PASS">
+        <test-method signature="T22_clickNonStop()[pri:12, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:21 IST" name="T22_clickNonStop" finished-at="2021-10-31T13:32:22 IST" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T22_clickNonStop -->
-        <test-method signature="T23_printAllPrices()[pri:13, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:25 IST" name="T23_printAllPrices" finished-at="2021-10-28T15:11:26 IST" duration-ms="863" status="PASS">
+        <test-method signature="T23_printAllPrices()[pri:13, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:22 IST" name="T23_printAllPrices" finished-at="2021-10-31T13:32:24 IST" duration-ms="2325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T23_printAllPrices -->
-        <test-method signature="T24_selectTheLastFlight()[pri:14, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:26 IST" name="T24_selectTheLastFlight" finished-at="2021-10-28T15:11:27 IST" duration-ms="944" status="PASS">
+        <test-method signature="T24_selectTheLastFlight()[pri:14, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:24 IST" name="T24_selectTheLastFlight" finished-at="2021-10-31T13:32:25 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T24_selectTheLastFlight -->
-        <test-method signature="T25_clickBookButton()[pri:15, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:27 IST" name="T25_clickBookButton" finished-at="2021-10-28T15:11:36 IST" duration-ms="8699" status="PASS">
+        <test-method signature="T25_clickBookButton()[pri:15, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:25 IST" name="T25_clickBookButton" finished-at="2021-10-31T13:32:28 IST" duration-ms="2793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T25_clickBookButton -->
-        <test-method signature="T26_orderReview()[pri:16, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:36 IST" name="T26_orderReview" finished-at="2021-10-28T15:11:37 IST" duration-ms="1086" status="PASS">
+        <test-method signature="T26_orderReview()[pri:16, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:28 IST" name="T26_orderReview" finished-at="2021-10-31T13:32:28 IST" duration-ms="575" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[isOrderReviewSuccess >> true]]>
             </line>
           </reporter-output>
         </test-method> <!-- T26_orderReview -->
-        <test-method is-config="true" signature="applicationClose()[pri:0, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-28T15:11:37 IST" name="applicationClose" finished-at="2021-10-28T15:11:38 IST" duration-ms="847" status="PASS">
+        <test-method is-config="true" signature="applicationClose()[pri:0, instance:flipkart.tests.SearchFlightsTest@428640fa]" started-at="2021-10-31T13:32:28 IST" name="applicationClose" finished-at="2021-10-31T13:32:29 IST" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationClose -->

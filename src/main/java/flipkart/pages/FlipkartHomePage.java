@@ -17,7 +17,7 @@ public class FlipkartHomePage extends BaseClass {
 	@FindBy(xpath = "//*[@id='container']/div/div[1]/div/div/div[2]//*[name()='svg']")
 	WebElement travelImageOnHeader;
 	
-	@FindBy(css = "[alt='Travel']")
+	@FindBy(xpath = "//div[contains(text(),'Travel')]")
 	WebElement travelButton;
 	
 	public FlipkartHomePage() {

@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 
 	protected static WebDriver driver;
-	protected static Duration waitUnit = Duration.ofSeconds(60);
+	protected static Duration waitUnit = Duration.ofSeconds(20);
 	protected static WebDriverWait wait;
 
 	public void launchApplication() {
